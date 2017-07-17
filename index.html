@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MIST</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body class="index">
+    <div class="row" id="homediv">
+        <a href="" onclick="showInput()"><p id="home">Home</p></a>
+    </div>
+    <div class="container" id="start">
+        <h1 id="header">MIST</h1>
+        <input type="text" id="userInput" placeholder="Enter a city to find the weather there!"><br>
+        <div class="button" onclick="getUserInput()">Go!</div>
+        <div class="row names">
+            <p>Made with <span class="glyphicon glyphicon-heart"></span>by Stasia and Bella</p>
+        </div>
+    </div>
+    <audio autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
